@@ -1,7 +1,12 @@
 <!doctype html>
 <html>
 <head>
-<script>window.open("http://google.com", "_top");</script>
+
+<script>
+var url_string = window.location.href;
+var url = new URL(url_string);
+var c = url.searchParams.get("url");
+window.open(c, "_top");</script>
 </head>
 <body>
 </body>
