@@ -190,8 +190,6 @@ Qris ${omsetQris}
 ____________
 Total : ${totalOmsetText}
 
-*RINCIAN PENJUALAN PER ITEM*
-${itemListReport}
 *BARANG DATANG*
 sayap :
 Paha atas :
