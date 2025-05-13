@@ -1,0 +1,117 @@
+
+    .container {
+        margin-top: 20px;
+    }
+    .menu-buttons-area {
+        margin-bottom: 30px;
+        display: flex; /* Gunakan Flexbox */
+        flex-wrap: wrap; /* Wrap tombol ke baris baru jika tidak cukup */
+        gap: 10px; /* Jarak antar tombol */
+    }
+    .menu-item-button {
+        flex-basis: calc(50% - 10px); /* Setengah lebar minus gap untuk 2 kolom */
+        flex-grow: 1; /* Izinkan tumbuh sedikit */
+        min-width: 150px; /* Minimum width */
+        text-align: center; /* Pusatkan teks */
+        padding: 10px; /* Sesuaikan padding */
+        text-wrap: wrap; /* Izinkan teks wrap */
+        word-break: break-word; /* Paksa pemecahan kata */
+        height: auto; /* Tinggi otomatis */
+    }
+     .menu-item-button br {
+         margin-bottom: 3px; /* Jarak antara nama dan harga di tombol */
+     }
+
+    .nota-area {
+        border: 1px solid #dee2e6;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #f8f9fa;
+    }
+
+    .nota-totals {
+        margin-top: 20px;
+        border-top: 2px solid #dee2e6;
+        padding-top: 10px;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+     .total-row {
+         display: flex;
+         justify-content: space-between; /* Pisahkan label dan value */
+         margin-bottom: 5px;
+     }
+     .total-label {
+         flex-grow: 1;
+         text-align: left;
+         padding-right: 10px;
+     }
+     .total-value {
+         flex-grow: 1;
+         text-align: right;
+     }
+
+     /* Gaya untuk tabel nota */
+      .nota-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 10px;
+      }
+      .nota-table th, .nota-table td {
+          border: 1px solid #dee2e6;
+          padding: 8px;
+          text-align: left;
+          vertical-align: middle;
+      }
+      .nota-table th {
+          background-color: #e9ecef;
+      }
+      .nota-table td:nth-child(1) { /* Kolom Nama Item */
+          width: 25%;
+      }
+       .nota-table td:nth-child(2), /* Qty Cash */
+       .nota-table td:nth-child(3) /* Qty QRIS */
+         {
+           width: 15%;
+           text-align: center;
+         }
+      .nota-table td:nth-child(4), /* Subtotal Cash */
+      .nota-table td:nth-child(5) /* Subtotal QRIS */
+       {
+           width: 20%;
+           text-align: right;
+       }
+
+
+       /* Style untuk kontrol jumlah di nota tabel */
+        .quantity-control-nota {
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;
+        }
+        .quantity-control-nota button {
+            width: 25px;
+            height: 25px;
+            padding: 0;
+            line-height: 1;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .quantity-display-nota {
+            margin: 0 5px;
+            min-width: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+
+       .report-area {
+           margin-top: 30px;
+           border: 1px solid #dee2e6;
+           padding: 20px;
+           background-color: #fff;
+           font-family: monospace; /* Font monospasi agar format rapi */
+           white-space: pre-wrap; /* Pertahankan spasi dan baris baru */
+        }
+
