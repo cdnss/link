@@ -16,8 +16,6 @@ $(document).ready(function() {
         { id: 13, name: "Paha Atas Original", regularPrice: "12K", qrisPrice: "12K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Paha Atas" },
         { id: 14, name: "Paket Ayam + Nasi Paha Atas", regularPrice: "14K", qrisPrice: "14K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Paha Atas" },
         { id: 15, name: "Paket Nasi Ayam + Es Teh Paha Atas", regularPrice: "16K", qrisPrice: "16K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Paha Atas" },
-        { id: 16, name: "Promo Panas Paha Atas", regularPrice: "13K", qrisPrice: "13K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Paha Atas" },
-        { id: 17, name: "Promo Panas Dada", regularPrice: "13K", qrisPrice: "13K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Dada Biasa" } // Anggap ini Dada Biasa
     ];
 
     const localStorageKeyQuantities = 'jepeMenuQuantitiesSeparate'; // Menggunakan kunci storage yang original kembali
@@ -111,12 +109,7 @@ $(document).ready(function() {
             "Paha Atas": 0,
             "Paha Bawah": 0,
             "Dada Lembut": 0,
-            "Dada Biasa": 0,
-            // Menghapus Kulit, Ceker, Kepala, Ayam Pok Pok sesuai menu original
-            // "Kulit": 0,
-            // "Ceker": 0,
-            // "Kepala": 0,
-            // "Ayam Pok pok": 0
+            "Dada Biasa": 0
         };
 
         menuData.forEach(menu => {
