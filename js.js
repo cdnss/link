@@ -16,7 +16,8 @@ $(document).ready(function() {
         { id: 13, name: "Paha Atas Original", regularPrice: "12K", qrisPrice: "12K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Paha Atas" },
         { id: 14, name: "Paket Ayam + Nasi Paha Atas", regularPrice: "14K", qrisPrice: "14K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Paha Atas" },
         { id: 15, name: "Paket Nasi Ayam + Es Teh Paha Atas", regularPrice: "16K", qrisPrice: "16K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Paha Atas" },
-        { id: 16, name: "NASI", regularPrice: "3K", qrisPrice: "3K", regularQuantity: 0, qrisQuantity: 0, basePiece: "NASI" },
+        { id: 16, name: "Sambel Geprek", regularPrice: "3K", qrisPrice: "3K", regularQuantity: 0, qrisQuantity: 0, basePiece: "Sambel Geprek" },
+        { id: 17, name: "NASI", regularPrice: "3K", qrisPrice: "3K", regularQuantity: 0, qrisQuantity: 0, basePiece: "NASI" },
     ];
 
     const localStorageKeyQuantities = 'jepeMenuQuantitiesSeparate'; // Menggunakan kunci storage yang original kembali
